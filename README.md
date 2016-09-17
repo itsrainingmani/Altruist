@@ -1,0 +1,2 @@
+# HackMITSignToMe
+Sign Language Duolingo
