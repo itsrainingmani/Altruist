@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "299182661199",
+    "firebase_url": "https://altruism-cbfbd.firebaseio.com",
+    "project_id": "altruism-cbfbd",
+    "storage_bucket": "altruism-cbfbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299182661199:android:0a06883f8a77e81e",
+        "android_client_info": {
+          "package_name": "unbiasedrouters.altruist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299182661199-1mj0dqe3n5k4bhgvc6t754fn5qsbck4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwGYZt3WrLU6CdcT6sX1AEuaLXPBRB_ss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
