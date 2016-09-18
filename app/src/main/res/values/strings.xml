@@ -2,4 +2,6 @@
     <string name="app_name">Altruist</string>
     <string name="facebook_app_id">1111578992261708</string>
     <string name="title_activity_maps">Map</string>
+    <string name="login_activity">Login Activity</string>
+    <string name="google_maps_key">AIzaSyAJMr3FIjBEfaHZorgVeGJFFpLjGuqMMfc</string>
 </resources>

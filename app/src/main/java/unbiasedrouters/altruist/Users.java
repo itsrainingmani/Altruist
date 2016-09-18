@@ -7,28 +7,32 @@ import java.util.Map;
  * Created by Sarang on 17/09/16.
  */
 public class Users {
-    public String Address;
-    public int credit;
-    public Map<String,String> Jobs = new HashMap<>();
-    public Map<String,String> JobsTaken = new HashMap<>();
+    public String email;
+    public String credit;
+    public Map<String,String> Jobs;
+    public Map<String,String> JobsTaken;
     public String Name;
+    public String Uid;
 
     public Users(){
 
     } //Default Constructor
 
-    public Users(String Address, int credit, String Name){
-        this.Address=Address;
-        this.credit=credit;
-        this.Name=Name;
+    public Users(String Uid, String name, String email, String credit){
+        this.Uid=Uid;
+        this.email=email;
+        if(credit!=null)
+            this.credit=credit;
+        else credit = "100";
+        this.Name=name;
     }
-
-    public int getCredit() {
+    public String getUid() { return Uid;}
+    public String getCredit() {
         return credit;
     }
 
-    public String getAddress() {
-        return Address;
+    public String getEmail() {
+        return email;
     }
 
     public String getName(){
